@@ -6,7 +6,7 @@ Source for my CV.
 The file is compiled using the [moderncv](http://www.ctan.org/pkg/moderncv) document class, written by Xavier Danaux.
 
 
-Dependecies
+Dependencies
 ----------------
 
 Installation of dependencies assumes use of Arch Linux, though package names should be mostly the same across distributions.
