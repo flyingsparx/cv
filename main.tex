@@ -7,8 +7,6 @@
 \moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-
 \usepackage[scale=0.75]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
@@ -26,11 +24,9 @@
 \address{40 Planet St}{Cardiff, CF24 0HZ}
 \mobile{07787 567865}
 \email{will@flyingsparx.net}
-\homepage{flyingsparx.net} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\homepage{flyingsparx.net}
 \social[twitter]{@flyingSparx} 
-%\extrainfo{additional information}
-%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-%\quote{"A witty and playful quotation" - John Smith}
+
 
 %----------------------------------------------------------------------------------------
 
@@ -42,17 +38,12 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\section{PhD Thesis}
-
-\cvitem{Title}{\emph{Inferring Interestingness in Online Social Networks}}
-\cvitem{Supervisors}{Stuart M Allen \& Roger M Whitaker}
-\cvitem{Description}{Exploring information propagation in online social networks. In particular, the use of machine learning to infer interesting Tweets in Twitter.}
-
 \section{Education}
 
-\cventry{2010--Present}{PhD Computer Science}{Cardiff University}{UK}{}{Distributed and Scientific Computing}  % Arguments not required can be left empty
-\cventry{2007--2010}{BSc Computer Science}{Cardiff University}{UK}{}{First Class Honours}
-\cventry{2006--2007}{A-Levels}{King's School, Worcester}{UK}{}{
+\cventry{2010--Present}{PhD Computer Science}{Cardiff University}{}{"Inferring Interestingness in Online Social Networks"}{Exploring information propagation in online social networks. In particular, the use of machine learning to infer interesting Tweets in Twitter.\\
+		}
+\cventry{2007--2010}{BSc Computer Science}{Cardiff University}{}{}{First Class Honours}
+\cventry{2006--2007}{A-Levels}{King's School, Worcester}{}{}{
 	\textit{To A2-level:} Mathematics, Biology, Chemistry \\
 	\textit{To AS-level:} Physics
 }
@@ -61,8 +52,7 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Publications}
-\subsection{Research}
+\section{Peer-Reviewed Publications}
 \cventry{Sept. 2013}{Inferring the Interesting Tweets in Your Network}
 		{\newline Will Webberley, Stuart M Allen, Roger M Whitaker}
 		{\newline in Workshop on Analyzing Social Media for the Benefit of Society (SOCIETY2.0), 3\textsuperscript{rd} International Conference on Social Computing and its Applications (SCA)}{}			
@@ -71,10 +61,7 @@
 \cventry{Sept. 2011}{Retweeting: A Study of Message-Forwarding in Twitter}
 	{\newline Will Webberley, Stuart M Allen, Roger M Whitaker}
 	{\newline in Workshop on Mobile and Online Social Networks (MOSN'11), 5\textsuperscript{th} International Conference on Network and System Security (NSS)}{}{\textit{At:} Milan, Italy / \textit{Reviewed:} Double-blind peer-reviewed / \textit{Publisher:} IEEE}
-	
-\subsection{Miscellaneous}
-\cventry{Jul. 2013}{Direct-to-S3 File Uploads in Python}{\newline Will Webberley}{\newline{Heroku}}{}
-	{An article written for Heroku's Dev Center to provide guidance on performing asynchronous uploads to Amazon's S3 platform using JavaScript and Python as a signing server.}
+
 	
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -89,8 +76,21 @@
 
 \cventry{2009}{Pulse Nightclub}{Bar staff}{}{}{Bar work as part of a vibrant and outgoing team. Direct contact with customers helped improve communication and teamwork skills, confidence, quick-thinking in a very fast-paced environment and over prolonged lengths of time. Responsible also for the supervision of new members of staff.}
 
+\section{Community}
+	\cventry{Written}{Direct-so-S3 File Uploads in Python}{Heroku 2013}{}{}{}
+	
+	\hspace{2.5cm}Internal talks at Cardiff School of Computer Science:\\
+	\cventry{Talks}{Finishing a PhD in Under 4 Years}{2013}{}{}{}
+	\cventry{}{The Flask Microframework}{2013}{}{}{}
+	\cventry{}{Node.js}{2012}{}{}{}
+	\cventry{}{Introduction to \LaTeX}{2012}{}{}{}
+	\cventry{}{Developing Google Chrome Extensions}{2011}{}{}{}
 
-
+	\cventry{Organised}{DigiSocial Hackathon}{2012}{}{}{}
+	
+	\cventry{Taken part}{Open Sauce Hackathon}{2013}{}{}{}
+	
+	
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
 %----------------------------------------------------------------------------------------
@@ -119,7 +119,7 @@
 
 \section{Skillset}
 \subsection{Technical}
-\hspace{2.5cm}\textit{I am experienced and enjoy working with the following languages and techniques.}\\
+\textit{I am experienced and enjoy working with the following languages and techniques.}\\
 \cvitem{Proficient}{Python, \textsc{java}, BASH, SQL, \LaTeX, HTML, JavaScript, PHP}
 \cvitem{Intermediate}{Perl, Ruby, C, C++}
 
@@ -127,24 +127,5 @@
 \hspace{2.5cm}\textit{I am also used to working with the following technologies, systems, and platforms.}\\
 \cvitem{Proficient}{Git, Android, GNU/Linux, UNIX, Flask, NoSQL (MongoDB, CouchDB, etc.), WEKA}
 \cvitem{Intermediate}{Django, Node.js, Rails}
-
-\section{Teaching Experience}
-As part of my PhD, I've taught in the School of Computer Science and Informatics at Cardiff University. Teaching enabled me to gain experiences and skills in speaking and instructing in front of large groups of people, providing a positive atmosphere for others to work in and in giving construcitve feedback.
-
-Assessments have allowed me to gain insights into how other people understand how different processes work, and how people can sometimes understand things slightly differently.
-
-Areas I've taught in include Java, Python, Assembly Language, system design (UML, etc.), project management, mobile communications, business processes, algorithmic programming, important professional skills, and so on. I've also had an opportunity to supervise serveral year-long projects carried out by teams of around 6-10 people, enabling me to gain more skills in project management, and more well-rounded experiences all round.
-
-%----------------------------------------------------------------------------------------
-%	INTERESTS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Interests}
-
-\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
-
-\cvlistdoubleitem{Piano}{Chess}
-\cvlistdoubleitem{Cooking}{Dancing}
-\cvlistitem{Running}
 
 \end{document}
