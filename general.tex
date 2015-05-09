@@ -8,6 +8,7 @@
 \moderncvcolor{orange} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage[scale=0.85]{geometry} % Reduce document margins
+\usepackage{color}
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 \setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 %\setlength{\makecvtitlenameheight}{5cm}
@@ -20,7 +21,7 @@
 \familyname{Webberley} % Your last name
 
 % All information in this block is optional, comment out any lines you don't need
-\title{\small{D.O.B.: 2\textsuperscript{nd} December 1988}}
+\title{\small{Data, software systems, development, and the web}}
 \address{40 Planet Street, Cardiff, CF24 0HZ}
 \mobile{07787 567865}
 \email{will@flyingsparx.net}
@@ -40,38 +41,36 @@
 %	SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Skillset}
-	\subsection{General}
-    \hspace{2.5cm}\parbox[b][3em][t]{0.8\textwidth}{I am extremely passionate in the field of technology and development with a natural flair for creating quality systems for a wide range of uses. I'm highly skilled across many facets of technology and software, and am a proven asset to both my team and wider institution. I am also a skilled communicator with expertise in working in multi-disciplinary teams.}
-    teaching,lecturing,i enjoy conveying through presentations, talks, and discussions
+\parbox[b][5em][t]{1.0\textwidth}{I am extremely passionate in the field of technology and development with a natural flair for creating quality systems for a wide range of uses and users. I'm always excited to learn about new technologies from others and through self-taught means. I am a skilled communicator with expertise in working in distributed and multi-disciplinary teams and I enjoy conveying thoughts and ideas through presentations, talks, and discussions.}
 
-	\subsection{Technical}
-		\hspace{2.5cm}\textit{I am highly proficient in these languages and techniques.}\\
-		\cvitem{Experienced}{Python, \textsc{Java}, PHP, Go, JavaScript, Shell, SQL, \LaTeX, HTML \& CSS}
+\section{Skillset}
+\textbf{I'm highly proficient in and frequently use a wide range of languages, frameworks, and platforms.}
+	\subsection{Languages}
+		\cvitem{Proficient}{Python, \textsc{Java}, PHP, Go, JavaScript, Shell, SQL, \LaTeX, HTML \& CSS}
 		\cvitem{Intermediate}{Perl, Ruby, C, C++}
 
-	\subsection{Platforms and Technologies}
-		\hspace{2.5cm}\textit{I have developed with the following technologies, frameworks, and platforms.}\\
-        \cvitem{Experienced}{Git, Android, GNU/Linux \& UNIX, Flask, MongoDB \& CouchDB, jQuery \& AngularJS, Weka, Node.js, Heroku, AWS, Nginx}
-		\cvitem{Intermediate}{Django, Rails, iOS}
-
-        \hspace{2.5cm}I am also very experienced in writing and consuming various web-based APIs, object-oriented and test-driven development, and .
+	\subsection{Platforms, Technologies, Techniques, and Frameworks}
+        \cvitem{Proficient}{Git, Android dev., GNU/Linux \& UNIX-like systems, Flask, MongoDB \& CouchDB, jQuery \& AngularJS, WebSocket, Weka, Node.js, Heroku, AWS, Nginx, Vim, Eclipse/NetBeans}
+		\cvitem{Intermediate}{Django, Rails, iOS dev.}
+        {\color{gray} \rule{\linewidth}{0.1mm} }
+        
+        \parbox[b][2em][t]{\textwidth}{I am very experienced with and have expertise in writing and consuming various web-based APIs, and working in object-oriented and test-driven environments for platforms ranging from distributed servers to desktop and mobile.}
 
 	
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Experience \& Employment}
+\section{Recent Experience \& Employment}
 
     \cventry{2013--Present}{Cardiff University}{Research Associate and Lecturer}{Cardiff, UK}{}{
-       \textbf{Research} as part of the International Technology Alliance (ITA) coalition between the UK MoD and the US Army Research Labs. I work with a variety of US and UK academic and industry partners, such as IBM and Boeing, in advancing information and network sciences.
+        \textbf{Research} as part of the International Technology Alliance (ITA) coalition between the UK MoD and the US Army Research Labs. I work (in Python, JavaScript/Node.js, \textsc{Java}, etc.) with a variety of US and UK academic and industry partners, such as IBM and Boeing, in advancing information and network sciences.
        \newline{}\textbf{Lecturer} of postgraduate masters (MSc Advanced Computer Science) students as module leader of Web and Social Computing. I also lecture two Computer Science undergraduate courses - Human-Computer Interaction (as module leader of \textasciitilde140 students), and Algorithms \& Data Structures.
        \newline I teach with consistently good feedback from peers and students, both in terms of technical knowledge and in style \& approach. I am responsible for developing course materials, syllabae, exams, and coursework.
     }
 
 	\cventry{2010--2013}{Cardiff University}{Tutor and student supervisor}{Cardiff, UK}{}{
-        Tutoring, supervision, and assessment of BSc and MSc students in practical and theory sessions.
+        Tutoring, supervision, and assessment of BSc and MSc students in practical and theory-based sessions.
         \newline{}\textbf{Examples of subjects taught:} Python, \textsc{Java}, webapp/API programming, computer architecture, mobile communications and meta heuristics, communication \& professional skills, assembly language.
         \newline{}\textbf{Examples of projects supervised:} Social media visualisation toolkits, digital asset stores.
     }
@@ -83,10 +82,11 @@
 
 \section{Education}
 
-	\cventry{2010--2014}{PhD Computer Science}{Cardiff University}{}{\newline{}"\textit{Inferring Interestingness in Online Social Networks}"}{Exploring information propagation in online social networks. In particular, the use of Bayesian machine learning methodologies in the prediction of Tweet popularity in Twitter as a basis for the inference and ranking of interesting Tweets.\\
+	\cventry{2010--2014}{PhD Computer Science}{Cardiff University}{}{\newline{}"\textit{Inferring Interestingness in Online Social Networks}"}{Exploring information propagation in online social networks. In particular, the use of Bayesian machine learning methodologies in the prediction of tweet popularity in Twitter as a basis for the inference and ranking of interesting user-contributed data.\\
             I have periodically published interesting findings and analyses in proceedings, and have contributed to the ``excellent''-rated EU Recognition project.\\
 		}
-	\cventry{2007--2010}{BSc Computer Science}{Cardiff University}{First-class Honours}{}{}
+	\cventry{2007--2010}{BSc Computer Science}{Cardiff University}{First-class honours}{}{}
+
 
 %----------------------------------------------------------------------------------------
 %	COMMUNITY SECTION
@@ -111,31 +111,32 @@
         \end{itemize}
     }
 
-	\cvitem{Articles}{
+	\cvitem{Written}{
 		\begin{itemize}
             \item Invited articles for the Heroku Dev Center:
             \begin{itemize}
                 \item "Direct-to-S3 File Uploads in Node.js", \textit{Heroku 2014}
                 \item "Direct-to-S3 File Uploads in Python", \textit{Heroku 2013}
 			\end{itemize}
+            \item I aso maintain an active blog, which is hosted on my website at \underline{flyingsparx.net/blog}.
 		\end{itemize}
 	}
 	
-	\cvitem{Talks}{
+	\cvitem{Spoken}{
 		\begin{itemize}
-			\item \textbf{Informal}\begin{itemize}		
+			\item \textbf{Examples of informal talks given}\begin{itemize}		
                 \item "Writing Useful Web APIs", \textit{2015}
                 \item "Contributing to the Open-Source World", \textit{2014}
 				\item "The Flask Microframework", \textit{2013}
-				\item "Node.js", \textit{2012}
-				\item "Introduction to \LaTeX", \textit{2012}
+				\item "Node.js: An Introduction to Development", \textit{2012}
+				\item "Typesetting with \LaTeX", \textit{2012}
 				\item "Developing Google Chrome Extensions", \textit{2011}
 			\end{itemize}
-			\item \textbf{Formal / academic}\begin{itemize}
-                \item "Inferring Interestingness in Online Social Networks" \textit{Guest speaker at King's College, London, 2014}
+			\item \textbf{Examples of formal and academic talks and seminars given}\begin{itemize}
+                \item "Inferring Interestingness in OSNs" \textit{Guest speaker at King's College, London, 2014}
 				\item "Inferring the Interesting Tweets in Your Network", \textit{SOCIETY2.0, Karlsruhe, Germany, 2013}
 				\item "Finishing a PhD in Under 4 Years", \textit{Cardiff University Research Retreat, 2013}
-                \item "Seminar: Weka - the machine learning toolkit", \textit{Cardiff University MobiSoc Research Group, 2013}
+                \item "Weka - the Machine-Learning Toolkit", \textit{Cardiff University MobiSoc Research Group, 2013}
 				\item "Retweeting: A Study of Message-Forwarding in Twitter", \textit{MOSN'11, Milan, Italy, 2011}
 			\end{itemize}
 		\end{itemize}
@@ -154,8 +155,11 @@
 		\end{itemize}
 	}
 
-    \cvitem{General}{I am co-coordinator of Cardiff University's MobiSoc (`mobile \& social' computing) research group and, until December 2013, I co-organised weekly talks and events for research students. I enjoy keeping up with technological news and advances and attending local events, such as those, in Cardiff, held by UnifiedDiff and Cardiff Start.
+    \cvitem{General}{I am currently co-coordinator of Cardiff University's MobiSoc (`mobile \& social' computing) research and interests group. I love keeping up with technological news and advances and attending local events, such as those, in Cardiff, held by UnifiedDiff and Cardiff Start.
     }
+
+\section{More}
+My date of birth is the 2\textsuperscript{nd} December 1988 and I hold a clean full manual UK driving license. I run, swim, surf, and love music. I often spend my spare time tinkering with home projects and, when I can, I like to relax by playing games and reading novels. A digital version of this CV is available in colour at \underline{flyingsparx.net/cv}.
 
 
 \end{document}
